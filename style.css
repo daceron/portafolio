@@ -423,5 +423,25 @@ footer a:hover {
   .services-container {
     grid-template-columns: 1fr;
   }
+    .about-container {
+    flex-direction: column-reverse;
+    gap: 2rem;
+    align-items: center;
+  }
+  .about-image {
+    padding-top: 0;
+  }
+  .about-text h1, .about-text .subtitle {
+    text-align: center;
+  }
+  .about-text h3 {
+    text-align: center;
+  }
+  .about-text .skill-list {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+}
+
 
